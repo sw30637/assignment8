@@ -1,0 +1,4 @@
+Author: Maha Yaqub my1288
+This file gives a description of the income per person distribution for the years 2007 to 2012. 
+
+Looking at the Income per person distribution for the years 2007 to 2012 it can be observed that the overall distribution has not changed that much. A peak is seen between the income range of 0 to 5000 in all the years. All of the distributions have a notable gap in the range 50000 to 70000.  
