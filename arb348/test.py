@@ -9,9 +9,6 @@ import os
 
 class Test(unittest.TestCase):
 
-    def testName(self):
-        pass
-
     def testFilesExist(self):
         """ Test to ensure that the output file exist."""
             
