@@ -1,0 +1,3 @@
+1. Income inequality is slowly increasing over time, both within and between regions. The increase in the 'within' variation is evident from an increase in the size of the boxplots' boxes. The increase in the 'between' variation is evident from a larger variation in the positions of medians. 
+2. Income inequality is increasing slowly: the growth is evident when comparing different decades or even centures, but not that evident from year-to-year comparisons. 
+3. For more than 200 years, Europe has been the richest region, while Africa -- the poorest. At the same time, Europe has the largest variance of income.  
