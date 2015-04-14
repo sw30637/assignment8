@@ -8,7 +8,7 @@
 
 import pandas as p
 from assignment8Functions.exploreGraphs import *
-import sys
+import assignment8Functions.assignment8Exceptions as ex
 
 def makeOutput(data, year):
     '''
@@ -17,7 +17,7 @@ def makeOutput(data, year):
     '''
     try:
         # Load data using merge_by_year(year) from assignment8Functions.exploreGraph
-        currentData = data.merge_by_year(year)
+        currentData = data.mergeByYear(year)
         # Instantiates an object of ExploreGraphs class with data and graphs as attributes
         currentGraphs = ExploreGraphs(currentData, year)
         currentGraphs.makeBoxplot()
@@ -25,7 +25,6 @@ def makeOutput(data, year):
         currentGraphs.makeHistogram()
         currentGraphs.saveHistogram()
     except ValueError: 
-        print 'Error: Check your input files (they might be damaged), and input year (should be an integer between 1800 and 2012). \ndata argument should be of Data class' 
-        sys.exit(0)
+        raise ex.WrongInput()
 
 

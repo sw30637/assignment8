@@ -6,7 +6,7 @@
 
 
 import pandas as p
-import sys
+from assignment8Functions import assignment8Exceptions as ex
 
 class Data:
     '''
@@ -30,12 +30,8 @@ class Data:
         '''
         try:
             return p.read_csv('countries.csv', header=0)
-        except IOError:
-            print 'Error: No countries.csv in your working directory'
-            sys.exit(0)
-        except ValueError:
-            print 'Error: Check your countries.csv file. It might be damaged' 
-            sys.exit(0)
+        except IOError, ValueError:
+            raise ex.WrongInput()
 
 
     def loadIncomeData(self):
@@ -57,16 +53,10 @@ class Data:
             print 'Loading income data'
             print income.head()
             return income
-        except IOError:
-            print 'Error: No indicator gapminder gdp_per_capita_ppp.xlsx in your working directory'
-            sys.exit(0)
-        except ValueError:
-            print 'Error: Check your indicator gapminder gdp_per_capita_ppp.xlsx file. It might be damaged' 
-            sys.exit(0)
+        except IOError, ValueError:
+            raise ex.WrongInput()
 
-
-
-    def merge_by_year(self, year):
+    def mergeByYear(self, year):
         '''
         Integer between 1800 and 2012 as input. Returns a pandas DataFrame with merged self.countries and self.income
         KeyError and ValueError if wrong files are used. 
@@ -78,12 +68,7 @@ class Data:
             mergedDF = mergedDF.reindex(columns = ['Country', 'Region', 'Income'])
             mergedDF['Income'] = mergedDF['Income'].astype(float)
             return mergedDF  
-        except KeyError:
-            print 'Error: Check your input files. They might be damaged' 
-            sys.exit(0)
-        except ValueError: 
-            print 'Error: Check your input files. They might be damaged' 
-            sys.exit(0)
-
+        except KeyError, ValueError:
+            raise ex.WrongInput()
 
 

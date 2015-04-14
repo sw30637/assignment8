@@ -7,8 +7,9 @@
 
 import sys
 import pandas as p
-from assignment8Functions.dataModule import dataClass, produceOutput
-from assignment8Functions import inputChecker, exploreGraphs
+from assignment8Functions.dataModule import dataClass
+from assignment8Functions import inputChecker, exploreGraphs, produceOutput
+from assignment8Functions import assignment8Exceptions as ex
 
 if __name__ == '__main__':
     # Instantiate a Data class object, loading the data
@@ -41,3 +42,6 @@ if __name__ == '__main__':
         except KeyboardInterrupt:
             print 'Enter "finish" to exit the program\n'
             continue
+        except ex.WrongInput:
+        	print 'WrongInput exception. Exiting the program'
+        	sys.exit(1)
