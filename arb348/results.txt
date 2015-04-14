@@ -1,0 +1,21 @@
+Visually inspect the graphs generated in question 7 and write a short 
+description of the changes you observe over the period. Place your description 
+in a file called results.txt​ and add this to the repository.
+
+Incomes accross the regions appear to be skewed towards lower incomes. While this is 
+especially true for both Africa and Asia, it's the opposite case in Europe, where
+the median is much closer to the 75th percentile. Over the period from 2007-2012, 
+these income gaps largely remain, with the exception of Oceana, which looks to have 
+had a large contraction in 2012 with values for the 99th and 75th percentiles much
+closer to each other and to the median. 
+
+At the same time, there looks to be an upward movement in median incomes 
+in different regions, especially steady in Asia, South America and Africa. 
+
+In addition, looking at the histograms of incomes across counties for a given year
+shows that incomes are positively skewed (with the 'long tail' to the positive side), 
+and this does not seem to change over this period. Because of this distribution, we 
+can say that most countries are in a group of low-income states, btut with a long tail 
+of rich states also in existence.
+
+
