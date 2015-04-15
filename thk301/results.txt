@@ -1,0 +1,20 @@
+Tae Kim
+assignment8 findings
+
+
+The growth of Africa from 2007 to 2012 is minimal.  
+The maximum, median, or minimum on boxplots have not changed much. 
+The histogram display slight improvement, and there is not a noticeable growth on the pie charts. 
+
+Asia also shows minimal change with slight improvement. 
+
+The median of the income (GDP per capita) in Europe was below $20,000, but in 2012, it is over $20,000
+
+The median of the income in North America passes $10,000 mark in 2012. 
+
+The income of Oceania actually decreases from 2007 to 2012. 
+New Zealand shows its growth on pie chart.   
+
+The maximum, median, and minimum on boxplots of South America improved.
+All the countries equally have grown and shares/presents on pie charts are pretty identical between 2007 and 2012. 
+
