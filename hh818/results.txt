@@ -1,0 +1,7 @@
+From the histograms of 2007 to 2012, we can see that the distributions remained skewed to the left 
+throughout these 5 years. 
+From the bokplots, we can observe that the medians of every region improved in 2010 from 1970. Also,
+the distribution seems to become more dispersed for Asia and Europe, as the quartiles and the maximums
+and minumums become larger throughout the decades. This trend indicates that income gaps between nations
+are widening in those regions. Lastly, Europe has remained the most affluent region while Africa the 
+poorest in these 4 decades.
