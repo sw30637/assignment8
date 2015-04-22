@@ -56,7 +56,6 @@ if __name__ == '__main__':
 	# Create a list for the years that need to be looped through
 	year_analysis = ['2007', '2008', '2009', '2010', '2011', '2012']
 
-	print "Printing graphs for years 2007 to 2012 for analysis..."
 	# Loop through these years to get the graphs
 	for year in year_analysis:
 		DisplayDistribution(year, income)

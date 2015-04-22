@@ -29,9 +29,5 @@ class testForModules(unittest.TestCase):
 		# Check for the results.txt
 		self.assertTrue(os.path.exists('results.txt'))
 
-		# Check for the datasets
-		self.assertTrue(os.path.exists('indicatorgapmindergdp_per_capita_ppp.csv'))
-		self.assertTrue(os.path.exists('countries.csv'))
-
 if __name__ == '__main__':
 	unittest.main()
