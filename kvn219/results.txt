@@ -1,0 +1,11 @@
+#Author: Kevin Nguyen
+#Programming for Datascience
+
+The graphs are center on a critical question, over time how does wealth/income change over
+time with respect to different regions?  I decided that I wanted to look at the top three
+countries within their region and compare how they were doing against other top three countries
+across the world.  To my shock there is huge disparity among the wealthiest of the wealthy.
+The old saying, a giant among midgets, comes to mind when I analyze the results.
+Moreover, the something that also stands out is the range in which the graph shows.
+Going from anywhere in the less than $10,000 ballpark to over $90,000 really crystalizes
+the stark reality of income inequality among the countries of the world.
